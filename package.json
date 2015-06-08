@@ -1,0 +1,19 @@
+{
+  "name": "game.js",
+  "version": "1.0.0",
+  "description": "Betting Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8ENs/209-BettingOnNode.git"
+  },
+  "author": "Ben Sanders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8ENs/209-BettingOnNode/issues"
+  },
+  "homepage": "https://github.com/8ENs/209-BettingOnNode#readme"
+}
