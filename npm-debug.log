@@ -1,0 +1,194 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'sync-prompt' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/package.json
+5 warn package.json game.js@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/node-gyp/package.json
+7 verbose installManyTop reading scoped package data from /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/rebuild/package.json
+8 info package.json rebuild@0.1.2 No license field.
+9 verbose readDependencies loading dependencies from /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/package.json
+10 silly cache add args [ 'sync-prompt', null ]
+11 verbose cache add spec sync-prompt
+12 silly cache add parsed spec { raw: 'sync-prompt',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'sync-prompt',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: '*',
+12 silly cache add   type: 'range' }
+13 silly addNamed sync-prompt@*
+14 verbose addNamed "*" is a valid semver range for sync-prompt
+15 silly addNameRange { name: 'sync-prompt', range: '*', hasData: false }
+16 silly mapToRegistry name sync-prompt
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/sync-prompt
+20 verbose addNameRange registry:https://registry.npmjs.org/sync-prompt not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/sync-prompt
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 5:56:30 PM
+24 verbose request id 93be95e3e2a78bb1
+25 verbose etag "F1FI93FOC31FJ12S7F7R5MWHL"
+26 http request GET https://registry.npmjs.org/sync-prompt
+27 http 304 https://registry.npmjs.org/sync-prompt
+28 silly get cb [ 304,
+28 silly get   { date: 'Tue, 09 Jun 2015 00:56:29 GMT',
+28 silly get     via: '1.1 varnish',
+28 silly get     'cache-control': 'max-age=60',
+28 silly get     etag: '"F1FI93FOC31FJ12S7F7R5MWHL"',
+28 silly get     age: '0',
+28 silly get     connection: 'keep-alive',
+28 silly get     'x-served-by': 'cache-sjc3130-SJC',
+28 silly get     'x-cache': 'HIT',
+28 silly get     'x-cache-hits': '1',
+28 silly get     'x-timer': 'S1433811389.846730,VS0,VE84',
+28 silly get     vary: 'Accept' } ]
+29 verbose etag https://registry.npmjs.org/sync-prompt from cache
+30 verbose get saving sync-prompt to /Users/benjamin/.npm/registry.npmjs.org/sync-prompt/.cache.json
+31 silly addNameRange number 2 { name: 'sync-prompt', range: '*', hasData: true }
+32 silly addNameRange versions [ 'sync-prompt',
+32 silly addNameRange   [ '0.0.0',
+32 silly addNameRange     '0.0.1',
+32 silly addNameRange     '0.1.0',
+32 silly addNameRange     '0.2.0',
+32 silly addNameRange     '0.2.1',
+32 silly addNameRange     '0.2.2',
+32 silly addNameRange     '0.3.1',
+32 silly addNameRange     '0.3.2',
+32 silly addNameRange     '0.3.3-beta',
+32 silly addNameRange     '0.4.0',
+32 silly addNameRange     '0.4.1',
+32 silly addNameRange     '0.4.2' ] ]
+33 silly addNamed sync-prompt@0.4.2
+34 verbose addNamed "0.4.2" is a plain semver version for sync-prompt
+35 silly cache afterAdd sync-prompt@0.4.2
+36 verbose afterAdd /Users/benjamin/.npm/sync-prompt/0.4.2/package/package.json not in flight; writing
+37 verbose afterAdd /Users/benjamin/.npm/sync-prompt/0.4.2/package/package.json written
+38 silly install resolved [ { name: 'sync-prompt',
+38 silly install resolved     description: 'The missing prompt function for Node.js',
+38 silly install resolved     homepage: 'https://github.com/shovon/sync-prompt',
+38 silly install resolved     keywords:
+38 silly install resolved      [ 'command',
+38 silly install resolved        'line',
+38 silly install resolved        'io',
+38 silly install resolved        'cli',
+38 silly install resolved        'commandline',
+38 silly install resolved        'commandlineinterface',
+38 silly install resolved        'commandlineinput',
+38 silly install resolved        'input',
+38 silly install resolved        'output',
+38 silly install resolved        'stdin',
+38 silly install resolved        'synchronous' ],
+38 silly install resolved     version: '0.4.2',
+38 silly install resolved     author:
+38 silly install resolved      { name: 'Salehen Shovon Rahman',
+38 silly install resolved        email: 'sal@linux.com',
+38 silly install resolved        url: 'http://shovon.github.io' },
+38 silly install resolved     scripts:
+38 silly install resolved      { test: './node_modules/mocha/bin/mocha && ./node_modules/jshint/bin/jshint .',
+38 silly install resolved        coverage: './node_modules/istanbul/lib/cli.js cover _mocha -- -u exports -R spec',
+38 silly install resolved        coveralls: './node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage',
+38 silly install resolved        install: 'node-gyp rebuild' },
+38 silly install resolved     repository:
+38 silly install resolved      { type: 'git',
+38 silly install resolved        url: 'git+https://github.com/shovon/sync-prompt.git' },
+38 silly install resolved     bugs: { url: 'https://github.com/shovon/sync-prompt/issues' },
+38 silly install resolved     license:
+38 silly install resolved      { type: 'MIT',
+38 silly install resolved        url: 'https://github.com/shovon/blob/master/LICENSE' },
+38 silly install resolved     main: './lib/sync-prompt',
+38 silly install resolved     devDependencies:
+38 silly install resolved      { sinon: '~1.7.3',
+38 silly install resolved        jshint: '~2.1.4',
+38 silly install resolved        mocha: '~1.12.0',
+38 silly install resolved        istanbul: '~0.1.44',
+38 silly install resolved        coveralls: '~2.3.0',
+38 silly install resolved        'mocha-lcov-reporter': '0.0.1' },
+38 silly install resolved     gypfile: true,
+38 silly install resolved     gitHead: '088a39c65c5efc4cef94717ea6ff6ad7869fc17e',
+38 silly install resolved     _id: 'sync-prompt@0.4.2',
+38 silly install resolved     _shasum: '9bf28c298dbd362189713087c277b4e903aaf371',
+38 silly install resolved     _from: 'sync-prompt@*',
+38 silly install resolved     _npmVersion: '2.5.1',
+38 silly install resolved     _nodeVersion: '1.2.0',
+38 silly install resolved     _npmUser: { name: 'shovon', email: 'sal@linux.com' },
+38 silly install resolved     maintainers: [ [Object] ],
+38 silly install resolved     dist:
+38 silly install resolved      { shasum: '9bf28c298dbd362189713087c277b4e903aaf371',
+38 silly install resolved        tarball: 'http://registry.npmjs.org/sync-prompt/-/sync-prompt-0.4.2.tgz' },
+38 silly install resolved     directories: {},
+38 silly install resolved     _resolved: 'https://registry.npmjs.org/sync-prompt/-/sync-prompt-0.4.2.tgz',
+38 silly install resolved     readme: 'ERROR: No README data found!' } ]
+39 info install sync-prompt@0.4.2 into /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode
+40 info installOne sync-prompt@0.4.2
+41 verbose installOne of sync-prompt to /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode not in flight; installing
+42 verbose lock using /Users/benjamin/.npm/_locks/sync-prompt-cd4f7c80b5f7ba76.lock for /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt
+43 silly install write writing sync-prompt 0.4.2 to /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt
+44 verbose unbuild node_modules/sync-prompt
+45 silly gentlyRm /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt is being purged from base /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode
+46 verbose gentlyRm don't care about contents; nuking /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt
+47 verbose tar unpack /Users/benjamin/.npm/sync-prompt/0.4.2/package.tgz
+48 verbose tar unpacking to /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt
+49 silly gentlyRm /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt is being purged
+50 verbose gentlyRm don't care about contents; nuking /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm extractEntry .npmignore
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm extractEntry LICENSE
+56 silly gunzTarPerm extractEntry test.js
+57 silly gunzTarPerm extractEntry HISTORY.md
+58 silly gunzTarPerm extractEntry binding.gyp
+59 silly gunzTarPerm extractEntry lib/sync-prompt.js
+60 silly gunzTarPerm extractEntry src/sync_prompt.cc
+61 verbose write writing to /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt/package.json
+62 info preinstall sync-prompt@0.4.2
+63 verbose readDependencies loading dependencies from /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt/package.json
+64 verbose readDependencies loading dependencies from /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt/package.json
+65 silly install resolved []
+66 verbose about to build /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt
+67 info build /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt
+68 info linkStuff sync-prompt@0.4.2
+69 silly linkStuff sync-prompt@0.4.2 has /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules as its parent node_modules
+70 verbose linkBins sync-prompt@0.4.2
+71 verbose linkMans sync-prompt@0.4.2
+72 verbose rebuildBundles sync-prompt@0.4.2
+73 info install sync-prompt@0.4.2
+74 verbose unsafe-perm in lifecycle false
+75 info sync-prompt@0.4.2 Failed to exec install script
+76 verbose unlock done using /Users/benjamin/.npm/_locks/sync-prompt-cd4f7c80b5f7ba76.lock for /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt
+77 verbose stack Error: sync-prompt@0.4.2 install: `node-gyp rebuild`
+77 verbose stack Exit status 1
+77 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+77 verbose stack     at EventEmitter.emit (events.js:110:17)
+77 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+77 verbose stack     at ChildProcess.emit (events.js:110:17)
+77 verbose stack     at maybeClose (child_process.js:1015:16)
+77 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+78 verbose pkgid sync-prompt@0.4.2
+79 verbose cwd /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode
+80 error Darwin 14.0.0
+81 error argv "node" "/usr/local/bin/npm" "install" "sync-prompt"
+82 error node v0.12.4
+83 error npm  v2.10.1
+84 error code ELIFECYCLE
+85 error sync-prompt@0.4.2 install: `node-gyp rebuild`
+85 error Exit status 1
+86 error Failed at the sync-prompt@0.4.2 install script 'node-gyp rebuild'.
+86 error This is most likely a problem with the sync-prompt package,
+86 error not with npm itself.
+86 error Tell the author that this fails on your system:
+86 error     node-gyp rebuild
+86 error You can get their info via:
+86 error     npm owner ls sync-prompt
+86 error There is likely additional logging output above.
+87 verbose exit [ 1, true ]
+88 verbose unbuild node_modules/sync-prompt
+89 info preuninstall sync-prompt@0.4.2
+90 info uninstall sync-prompt@0.4.2
+91 verbose unbuild rmStuff sync-prompt@0.4.2 from /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules
+92 info postuninstall sync-prompt@0.4.2
+93 silly gentlyRm /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt is being purged from base /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode
+94 verbose gentlyRm don't care about contents; nuking /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt
+95 silly vacuum-fs purging /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules/sync-prompt
+96 silly vacuum-fs quitting because other entries in /Users/benjamin/lighthouse/Week7/D1/209-BettingOnNode/node_modules
